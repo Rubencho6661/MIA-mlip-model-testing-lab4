@@ -30,12 +30,5 @@ For every slice you log, keep a short note in the notebook (e.g., the `saved_sli
 2. Copy the API key from https://wandb.ai/authorize.
 3. Run `wandb login` in the terminal (outside the notebook) and paste the key when prompted.
 
-## Code-related notes
-- Step 3 shows sample metadata columns; replace/extend them with your hypothesis-driven features (add a `# TODO` so you do not forget).
-- Steps 5 and 6 compute regression-aware metrics and log all tables/summaries to W&B—don’t skip the slice analysis before discussing with the TA.
-- Step 7 includes helper code for scoring the 10 synthetic tweets you paste into `generated_cases`; add a short description of your hypothesis plus observations so that your TA can read your mental model.
-- If downloading the Hugging Face dataset is slow or blocked, set `USE_HF_DATASET = False` to read the provided `tweets.csv`.
-- After filling all placeholders, clear the notebook outputs and re-save so students start from a clean slate.
-
 ## References
 - W&B slicing and tables guide: https://docs.wandb.ai/guides/app/features/panels/
