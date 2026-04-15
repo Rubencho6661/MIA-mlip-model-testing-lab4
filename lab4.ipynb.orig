@@ -56,17 +56,6 @@
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "101ca6fa",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Se tuvo que corregir las dependencias en el ambiente\n",
-    "#!pip install wandb datasets transformers evaluate tqdm emoji regex pandas pyarrow scikit-learn nbformat jupyter"
-   ]
-  },
-  {
    "cell_type": "markdown",
    "id": "db06dd7c",
    "metadata": {},
@@ -99,31 +88,7 @@
    "execution_count": null,
    "id": "60b207b9",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "PyTorch version: 2.12.0.dev20260408+cu128\n",
-      "CUDA available: True\n",
-      "CUDA version: 12.8\n",
-      "GPU name: NVIDIA GeForce RTX 5070 Ti\n",
-      "Arch list: ['sm_75', 'sm_80', 'sm_86', 'sm_90', 'sm_100', 'sm_120']\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "c:\\Users\\USUARIO\\miniconda3\\lib\\site-packages\\torch\\cuda\\__init__.py:287: UserWarning: \n",
-      "NVIDIA GeForce RTX 5070 Ti with CUDA capability sm_120 is not compatible with the current PyTorch installation.\n",
-      "The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 sm_80 sm_86 sm_90 compute_37.\n",
-      "If you want to use the NVIDIA GeForce RTX 5070 Ti GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/\n",
-      "\n",
-      "  warnings.warn(\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import torch\n",
     "print(f\"PyTorch version: {torch.__version__}\")\n",
