@@ -1,4 +1,4 @@
-env
+.env
 wandb
 .venv
 __pycache__
